@@ -39,6 +39,8 @@ tape('journeys', async t => {
 		name: 'Wien',
 	}
 	const when = DateTime.fromJSDate(new Date(), { zone: 'Europe/Vienna' }).plus({ days: 10 }).startOf('day').plus({ hours: 5 }).toJSDate()
+	console.log(when)
+	console.log(new Date())
 	const journeys = await oebb.journeys(berlin, vienna, { when })
 
 	t.ok(journeys.length === 5, 'number of journeys')

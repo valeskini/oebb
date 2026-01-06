@@ -15,8 +15,7 @@ jobs:
           node-version: 20
       - run: npm install
       - run: npm ci
-      - run: npm test
-
+# testing isnt possible here because oebbs api is blocking the ip ranges used by github actions runners
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest

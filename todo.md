@@ -1,0 +1,4 @@
+- sessions per request
+- implement operators list into oebb module idk
+- oebb bestprice search feature
+- currency

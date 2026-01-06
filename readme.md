@@ -89,6 +89,9 @@ Attribute | Description | FPTI-spec | Value type | Default
 `interval` | Results for how many minutes after `when`/`departureAfter` | ✅ | `Number` | `null`
 `transfers` | Max. number of transfers | ✅ | `Number` | `null`
 `prices` | Add price information to journeys (spawning an additional request internally) | ❌ | `Boolean` | `true`
+`passengers` | Array of passenger objects with types and accessibility flags | ❌ | `Array` | `[{ type: 'ADULT', count: 1 }]`
+`filters` | Journey search filters (regional trains, direct connections, wheelchair access, bikes, etc.) | ❌ | `Object` | `{ regionaltrains: false, direct: false, wheelchair: false, bikes: false, trains: false, motorail: false, connections: [] }`
+`sortType` | Sort type for results | ❌ | `String` | `'DEPARTURE'`
 
 #### Example
 
@@ -101,7 +104,18 @@ const vienna = { // FPTF station
     // …
 }
 
-oebb.journeys(berlin, vienna, { when: new Date('2019-11-02T05:00:00+02:00'), results: 1 }).then(…)
+oebb.journeys(berlin, vienna, {
+  when: new Date('2019-11-02T05:00:00+02:00'),
+  results: 15,
+  passengers: [
+    { type: 'ADULT' },
+    { type: 'CHILD' }
+  ],
+  filters: {
+    direct: false,
+    wheelchair: true
+  }
+}).then(…)
 ```
 
 ```js

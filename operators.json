@@ -1,0 +1,99 @@
+{
+  "EU": {
+    "International": [
+      { "name": "Eurostar", "type": "private", "region": "UK/FR/BE/NL/DE" },
+      { "name": "European Sleeper", "type": "private", "region": "BE/NL/DE/CZ" }
+    ],
+    "AT": [
+      { "name": "ÖBB", "fullName": "Österreichische Bundesbahnen", "type": "state", "notes": "Verkauft auch GKB, StB, Raaberbahn etc." },
+      { "name": "WESTbahn", "type": "private", "notes": "Eigener Vertrieb (Konkurrent)" }
+    ],
+    "DE": [
+      { "name": "DB", "fullName": "Deutsche Bahn", "type": "state", "notes": "Verkauft fast alle Regionalbahnen (Transdev, Netinera, Go-Ahead...)" },
+      { "name": "FlixTrain", "type": "private", "notes": "Eigener Vertrieb (Konkurrent)" }
+    ],
+    "FR": [
+      { "name": "SNCF", "type": "state", "brands": ["TGV", "Intercités", "TER", "Ouigo"] }
+    ],
+    "IT": [
+      { "name": "Trenitalia", "type": "state" },
+      { "name": "Italo", "fullName": "Nuovo Trasporto Viaggiatori", "type": "private", "notes": "Eigener Vertrieb (Konkurrent)" }
+    ],
+    "ES": [
+      { "name": "Renfe", "type": "state" },
+      { "name": "Ouigo España", "type": "state-owned (FR)", "notes": "Low-Cost Konkurrent" },
+      { "name": "Iryo", "type": "private", "notes": "Konkurrent (Trenitalia/Air Nostrum)" }
+    ],
+    "CZ": [
+      { "name": "ČD", "fullName": "České dráhy", "type": "state" },
+      { "name": "RegioJet", "type": "private", "notes": "Großer Player in CZ/SK/AT" },
+      { "name": "Leo Express", "type": "private", "notes": "Eigener Vertrieb" }
+    ],
+    "PL": [
+      { "name": "PKP Intercity", "type": "state" }
+    ],
+    "Benelux": [
+      { "name": "NMBS/SNCB", "country": "BE", "type": "state" },
+      { "name": "NS", "country": "NL", "type": "state" },
+      { "name": "CFL", "country": "LU", "type": "state" }
+    ],
+    "Nordics": [
+      { "name": "DSB", "country": "DK", "type": "state" },
+      { "name": "SJ", "country": "SE", "type": "state" },
+      { "name": "VR", "country": "FI", "type": "state" },
+      { "name": "Snälltåget", "type": "private", "notes": "Open Access (Transdev)" },
+      { "name": "MTRX", "type": "private", "notes": "Open Access Stockholm-Göteborg" }
+    ],
+    "Baltics": [
+      { "name": "Elron", "country": "EE", "type": "state" },
+      { "name": "PV", "country": "LV", "type": "state", "notes": "Markenname: Vivi" },
+      { "name": "LTG Link", "country": "LT", "type": "state" }
+    ],
+    "SouthEast": [
+      { "name": "SŽ", "country": "SI", "type": "state" },
+      { "name": "HŽPP", "country": "HR", "type": "state" },
+      { "name": "CFR", "country": "RO", "type": "state" },
+      { "name": "BDŽ", "country": "BG", "type": "state" },
+      { "name": "Hellenic Train", "country": "GR", "type": "private", "notes": "Gehört Trenitalia (FS)" }
+    ],
+    "Other": [
+      { "name": "MÁV-START", "country": "HU", "type": "state" },
+      { "name": "ZSSK", "country": "SK", "type": "state" },
+      { "name": "CP", "country": "PT", "type": "state" },
+      { "name": "Iarnród Éireann", "country": "IE", "type": "state" }
+    ]
+  },
+  "EWR": {
+    "NO": [
+      { "name": "Vy", "country": "NO", "type": "state" }
+    ]
+  },
+  "Non-EU": {
+    "CH": [
+      { "name": "SBB CFF FFS", "fullName": "Schweizerische Bundesbahnen", "type": "state", "notes": "Direkter Verkehr (DV) deckt fast alle Privatbahnen (BLS, RhB, SOB) ab" }
+    ],
+    "UK": [
+      { "name": "LNER", "fullName": "London North Eastern Railway", "type": "state" },
+      { "name": "Avanti West Coast", "type": "private" },
+      { "name": "GWR", "fullName": "Great Western Railway", "type": "private" },
+      { "name": "ScotRail", "type": "state" },
+      { "name": "Transport for Wales", "type": "state" },
+      { "name": "Grand Central", "type": "private", "notes": "Open Access" },
+      { "name": "Lumo", "type": "private", "notes": "Open Access" },
+      { "name": "Hull Trains", "type": "private", "notes": "Open Access" }
+    ],
+    "Balkans": [
+      { "name": "Srbija Voz", "country": "RS", "type": "state" },
+      { "name": "ŽFBH", "country": "BA", "type": "state", "notes": "Federation BiH" },
+      { "name": "ŽRS", "country": "BA", "type": "state", "notes": "Republika Srpska" },
+      { "name": "ŽPCG", "country": "ME", "type": "state" },
+      { "name": "ŽRSM Transport", "country": "MK", "type": "state" },
+      { "name": "HSH", "country": "AL", "type": "state" },
+      { "name": "Trainkos", "country": "XK", "type": "state" }
+    ],
+    "East": [
+      { "name": "UZ", "fullName": "Ukrzaliznytsia", "country": "UA", "type": "state" },
+      { "name": "CFM", "country": "MD", "type": "state" }
+    ]
+  }
+}
